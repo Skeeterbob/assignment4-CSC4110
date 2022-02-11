@@ -1,0 +1,11 @@
+#Rev 0 Start 02/10/2022
+##Begin Bryan Hodgins EG0547
+
+value = input("Please enter a string:\n")
+print ("You entered ", value, " and its type is ", type(value))
+value = input("Please enter an integer:\n")
+print("You entered ", value, " and its type is ", type(value))
+
+#Rev 0 02/10/2022
+##End Bryan Hodgins EG0547
+#Bryan Hodgins Assignment 4 - 1

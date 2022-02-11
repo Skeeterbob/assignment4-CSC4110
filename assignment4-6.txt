@@ -1,0 +1,25 @@
+#Rev 0 Start 02/10/2022
+##Begin Bryan Hodgins EG0547
+
+import random
+
+log = []
+roulette = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,
+            25,26,27,28,29,30,31,32,33,34,35,36,00]
+
+print("Press Enter to spin the Roulette wheel, Press x and Enter to exit")
+flag = True
+while flag == True:
+    value = input()
+    if value in ['x', 'X']:
+        flag = False
+    rand = random.randrange(38)
+    log.append(roulette[rand])
+    print(log)
+    
+print("Thank you for playing")
+    
+
+#Rev 0 02/10/2022
+##End Bryan Hodgins EG0547
+#Bryan Hodgins Assignment 4-6

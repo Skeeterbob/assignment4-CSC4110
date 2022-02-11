@@ -1,0 +1,9 @@
+#Rev 0 Start 02/10/2022
+##Begin Bryan Hodgins EG0547
+
+print([value for value in [0,1,16,81,256,625,1296,2401,4096,6561,10000,14641,
+                            20736,28561,38416,50625,65536,83521,104976]])
+
+#Rev 0 02/10/2022
+##End Bryan Hodgins EG0547
+#Bryan Hodgins Assignment 4-5

@@ -1,0 +1,10 @@
+#Rev 0 Start 02/10/2022
+##Begin Bryan Hodgins EG0547
+
+print("Twinkle, twinkle, little star,\n\tHow I wonder what you are!\n\t\tUp ab\
+ve the world so high,\n\t\tLike a diamond in the sky.\nTwinkle, twinkle,little\
+ star,\n\tHow I wonder what you are")
+
+#Rev 0 02/10/2022
+##End Bryan Hodgins EG0547
+#Bryan Hodgins Assignment 4-2

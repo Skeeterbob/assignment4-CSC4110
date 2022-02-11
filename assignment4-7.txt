@@ -1,0 +1,23 @@
+#Rev 0 Start 02/10/2022
+##Begin Bryan Hodgins EG0547
+
+DinnerGuests = []
+DateInvited = []
+flag = True
+
+print("Enter x as the name to exit program")
+
+while flag == True:
+    DinnerGuests.append(input("Enter the name of an invited guest:\n"))
+    if DinnerGuests[-1] in ['x', 'X']:
+        break
+    DateInvited.append(input("Enter the date the guest was invited:\n"))
+    print("Name: ", DinnerGuests[-1], " Date Invited: ", DateInvited[-1])
+    if len(DinnerGuests[-1]) < 12:
+        print(DinnerGuests[-1], " goes on a small tag\n")
+    else:
+        print(DinnerGuests[-1], " goes on a large tag\n")
+        
+#Rev 0 02/10/2022
+##End Bryan Hodgins EG0547
+#Bryan Hodgins Assignment 4-6

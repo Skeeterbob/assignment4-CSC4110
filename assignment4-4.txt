@@ -1,0 +1,12 @@
+#Rev 0 Start 02/10/2022
+##Begin Bryan Hodgins EG0547
+
+value = input("Enter a letter: ")
+if value in ('a', 'e', 'i', 'o', 'u'):
+    print("The letter entered is a vowel")
+else:
+    print("The letter entered is not a vowel")
+
+#Rev 0 02/10/2022
+##End Bryan Hodgins EG0547
+#Bryan Hodgins Assignment 4-4
